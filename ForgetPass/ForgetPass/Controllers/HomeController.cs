@@ -8,6 +8,7 @@ namespace ForgetPass.Controllers
 {
     public class HomeController : Controller
     {
+        int q=0;
         public ActionResult Index()
         {
             return View();
